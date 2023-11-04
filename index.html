@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Catalog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div id="header">
+       
+        <div id="img-logo">
+            <div id="menu"><span class="material-symbols-outlined">
+                menu
+                </span></div>
+            <img src="./Cookpal 1.svg" alt="logo" id="logo">
+        </div>
+        <div id="headerItem">
+            <div id="headerList">
+                <p>Home</p>
+                <p>Explore</p>
+                <p>Help</p>
+            </div>
+            <img src="./Ellipse 2.svg" alt="pic" id="pic">
+        </div>
+    </div>
+
+    <div id="section">
+       <div id="hero">
+        <img src="./Group 18117.svg" alt="text">
+       </div>
+    </div>
+
+    <div id="searchSection">
+        <h1>Search For Recipes</h1>
+        <div id="searchBar">
+            <input type="text" id="searchInput" placeholder="Search For Recipes">
+            <button id="seachButton">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+        </div>
+        <div id="categories">
+            <button id="showAll"><div class="div"><div class="text">All Recipes</div> <div class="icon">></div></div> </button>
+            <button id="showVeg"><div class="div"><div class="text">Veg Recipes Only</div> <div class="icon">></div></div> </button>
+            <button id="showNonVeg"><div class="div"><div class="text">Non Veg Recipes</div> <div class="icon">></div></div> </button>
+        </div>
+       
+    </div>
+  
+    <div id="main">
+        <div id="left">
+            <p style="font-size: 1.3rem; font-weight: 600;">Filters</p>
+            <br><br>
+            <p  style="font-size: 1rem; font-weight: 600;">Rating</p>
+            <label>
+                <input type="radio" name="ratingFilter" value="above4.5" id="above4_5"> 4 and Above
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="ratingFilter" value="below4.0" id="below4_0"> Below 4
+            </label>
+        </div>
+
+        <div id="recipeContainer">
+            <!-- Recipe cards will be displayed here -->
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div id="footer-top">
+            <div id="f1">
+                <img src="Cookpal 1.svg" alt="logo" class="f-img">
+                <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+            </div>
+            <div id="f2">
+                <h3>Company</h3>
+                <h5>Home</h5>
+                <h5>Explore</h5>
+                <h5>Team</h5>
+                <h5>About us</h5>
+                <h5>Activity</h5>
+            </div>
+            <div id="f3">
+                <h3>Resources</h3>
+                <h5>Blog</h5>
+                <h5>Use Cases</h5>
+                <h5>Testimonials</h5>
+                <h5>Insights</h5>
+            </div>
+            <div id="f4">
+                <img src="./Cookpal 1.svg" alt="logo" class="f-img">
+                <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+                <div>
+                <input type="search" name="email" id="email" placeholder="Your Email                                
+                                @">
+                <button id="Subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="social-icons">
+            <img src="./Instagram.svg" alt="insta">
+            <img src="./Twitter.svg" alt="twitter">
+            <img src="./Linkedin.svg" alt="Linkedin">
+            <img src="./Facebook.svg" alt="Facebook">
+        </div>
+    </div>
+    
+
+
+
+ 
+
+    <script src="index.js"></script>
+</body>
+
+</html>
